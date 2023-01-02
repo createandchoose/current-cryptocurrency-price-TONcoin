@@ -1,10 +1,6 @@
 # Вывод текущего курса Toncoin
  
-<div class="git-only">
-
 [![Screenshot-Toncoin.png](https://i.postimg.cc/ZRjFjBGv/Screenshot-2023-01-03-at-05-07-11-Toncoin.png)](https://postimg.cc/5YYC20Nf)
-
-</div>
 
 Этот код создает функцию <kbd>getTonPrice</kbd>, которая отправляет запрос к [CoinGecko API](https://www.coingecko.com/ru/api/documentation) для получения текущего курса TON coin. Затем код вызывает функцию <kbd>getTonPrice</kbd> и отображает результат в элементе с идентификатором <kbd>ton-price</kbd>.
 
@@ -12,6 +8,7 @@
 
 ## Для быстрого копирования
 
+JavaScript
 ```js
 async function getTonPrice() {
 	const response = await fetch('https://api.coingecko.com/api/v3/coins/the-open-network');
@@ -24,6 +21,7 @@ getTonPrice().then(tonPrice => {
 });
 ```
 
+HTML
 ```html
 <h1>Курс Toncoin: <span id="ton-price"></span> USD</h1>
 ```
