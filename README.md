@@ -1,4 +1,4 @@
-# Вывод текущего курса TONcoin c испольованием CoinGecko API
+# Вывод текущего курса Toncoin
  
 [![Screenshot-Toncoin.png](https://i.postimg.cc/ZRjFjBGv/Screenshot-2023-01-03-at-05-07-11-Toncoin.png)](https://postimg.cc/5YYC20Nf)
 
