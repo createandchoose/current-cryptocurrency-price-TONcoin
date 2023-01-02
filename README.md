@@ -23,3 +23,7 @@ getTonPrice().then(tonPrice => {
 	document.getElementById('ton-price').textContent = tonPrice;
 });
 ```
+
+```html
+<h1>Курс Toncoin: <span id="ton-price"></span> USD</h1>
+```
